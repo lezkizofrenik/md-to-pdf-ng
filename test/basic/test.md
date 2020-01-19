@@ -70,3 +70,8 @@ graph TD;
     B --> D;
     C --> D;
 ```
+<!-- Water mark example: -->
+<div style="position: fixed; display: flex; alignItems: center; top: 45%; left: 1%; height: 96px; font-size: 96px; opacity: 10%; transform: rotate(-45deg);">
+    <img style="width: 96px; height:96px; margin: 0px" src='./watermark.jpg' />
+    <span style="line-height: 96px; margin-left: 15px"> Watermark </span>
+</div>
