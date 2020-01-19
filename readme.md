@@ -2,7 +2,7 @@
 
 Forked from [https://github.com/simonhaenisch/md-to-pdf](https://github.com/simonhaenisch/md-to-pdf), and made some improvements:
 * Add mermaid support.
-* Add example for watermark.
+* Add example for watermark(see: test/basic/test.md).
 
 The following content is from the original project:
 
