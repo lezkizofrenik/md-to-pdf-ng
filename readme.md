@@ -1,9 +1,9 @@
 # Markdown to PDF
 
-[![Github Actions Badge](https://github.com/simonhaenisch/md-to-pdf/workflows/Node%20CI/badge.svg)](https://github.com/simonhaenisch/md-to-pdf/actions)
-[![CircleCI](https://circleci.com/gh/simonhaenisch/md-to-pdf/tree/master.svg?style=shield)](https://circleci.com/gh/simonhaenisch/md-to-pdf)
-[![NPM version](https://img.shields.io/npm/v/md-to-pdf.svg)](https://www.npmjs.com/md-to-pdf)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+Forked from [https://github.com/simonhaenisch/md-to-pdf](https://github.com/simonhaenisch/md-to-pdf), and made some improvements:
+* Add mermaid support.
+
+The following content is from the original project:
 
 ![Screenshot of markdown file and resulting PDF](https://file-boswoulruu.now.sh)
 
@@ -26,7 +26,7 @@
 **Option 1: NPM**
 
 ```sh
-npm i -g md-to-pdf
+npm i -g md-to-pdf-ng
 ```
 
 **Option 2: Git**
@@ -34,8 +34,8 @@ npm i -g md-to-pdf
 If you want to have your own copy to hack around with, clone the repository instead:
 
 ```sh
-git clone "https://github.com/simonhaenisch/md-to-pdf"
-cd md-to-pdf
+git clone "https://github.com/mikewootc/md-to-pdf-ng"
+cd md-to-pdf-ng
 npm link # or npm i -g
 ```
 

@@ -60,3 +60,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eos, fugit totam
 ## 6. Yay
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eos, fugit totam laboriosam harum earum cupiditate corporis, facilis nulla dolor hic consequatur. Magnam maiores unde aut esse est perferendis quos.
+
+## 7. mermaid
+
+```mermaid
+graph TD;
+    A --> B;
+    A --> C;
+    B --> D;
+    C --> D;
+```

@@ -1,5 +1,5 @@
 {
-  "name": "md-to-pdf",
+  "name": "md-to-pdf-ng",
   "version": "2.8.2",
   "description": "CLI tool for converting Markdown files to PDF.",
   "keywords": [
@@ -12,6 +12,7 @@
     "markdown",
     "pdf",
     "puppeteer",
+    "mermaid",
     "headless-chrome"
   ],
   "engines": {
