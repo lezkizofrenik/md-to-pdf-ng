@@ -2,7 +2,8 @@
 
 Forked from [https://github.com/simonhaenisch/md-to-pdf](https://github.com/simonhaenisch/md-to-pdf), and made some improvements:
 * Add mermaid support.
-* Add example for watermark(see: test/basic/test.md).
+* Add sample for watermark(see: test/basic/test.md).
+* Add sample header/footer config(see: test/basic/config.js. Should run: md-to-pdf test/basic/test.md --config-file ./test/basic/config.js).
 
 The following content is from the original project:
 

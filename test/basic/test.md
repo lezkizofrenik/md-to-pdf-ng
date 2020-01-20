@@ -1,11 +1,4 @@
----
-pdf_options:
-  format: A4
-  margin: 30mm 25mm
-  displayHeaderFooter: true
-  headerTemplate: <div></div>
-  footerTemplate: <div></div>
----
+<title> Markdown to PDF sample by md-to-pdf-ng </title>
 
 # Markdown To Pdf
 
