@@ -41,8 +41,8 @@
     "highlight.js": "9.15.10",
     "iconv-lite": "0.5.0",
     "listr": "0.14.3",
-    "marked": "0.7.0",
-    "puppeteer": "2.0.0",
+    "marked": "^0.7.0",
+    "puppeteer": "^15.3.2",
     "serve-handler": "6.1.1"
   },
   "devDependencies": {
