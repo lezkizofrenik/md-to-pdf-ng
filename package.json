@@ -1,5 +1,5 @@
 {
-  "name": "md-to-pdf-ng",
+  "name": "md-to-pdf-mermaid",
   "version": "2.9.0",
   "description": "CLI tool for converting Markdown files to PDF.",
   "keywords": [
