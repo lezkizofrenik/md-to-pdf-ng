@@ -2,7 +2,7 @@
 
 Forked from [mikewootc/md-to-pdf-ng](https://github.com/mikewootc/md-to-pdf-ng), I've fixed the mermaid support, since it did only generate very basic graphics due to obsolete dependencies.
 
-![sample screenshot](./test/basic/test-1.png)
+![sample screenshot](./test/basic/test-1.jpg)
 ![same screenshot updated](./test/basic/updated-test.png)
 <hr />
 
