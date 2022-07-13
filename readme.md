@@ -1,14 +1,10 @@
 # Markdown to PDF
 
-Forked from [https://github.com/simonhaenisch/md-to-pdf](https://github.com/simonhaenisch/md-to-pdf), and made some improvements:
-* Add mermaid support.
-* Add sample for watermark(see: test/basic/test.md).
-* Add sample header/footer config(see: test/basic/config.js. Should run: md-to-pdf test/basic/test.md --config-file ./test/basic/config.js).
+Forked from [mikewootc/md-to-pdf-ng](https://github.com/mikewootc/md-to-pdf-ng), I've fixed the mermaid support, since it did only generate very basic graphics due to obsolete dependencies.
 
-![sample screenshot](./test/basic/test-1.jpg)
-
+![sample screenshot](./test/basic/test-1.png)
+![same screenshot updated](./test/basic/updated-test.png)
 <hr />
-
 
 The following content is from the original project:
 
