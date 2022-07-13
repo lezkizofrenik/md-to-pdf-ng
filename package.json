@@ -1,6 +1,6 @@
 {
     "name": "md-mermaid-to-pdf",
-    "version": "2.9.0",
+    "version": "2.9.1",
     "description": "CLI tool for converting Markdown files to PDF with support for Mermaid graphics.",
     "keywords": [
         "markdown-to-pdf",
