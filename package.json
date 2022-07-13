@@ -1,97 +1,97 @@
 {
-  "name": "md-to-pdf-mermaid",
-  "version": "2.9.0",
-  "description": "CLI tool for converting Markdown files to PDF.",
-  "keywords": [
-    "markdown-to-pdf",
-    "cli",
-    "pdf-generation",
-    "documentation",
-    "assignments",
-    "homework",
-    "markdown",
-    "pdf",
-    "puppeteer",
-    "mermaid",
-    "headless-chrome"
-  ],
-  "engines": {
-    "node": ">= 8.3.0"
-  },
-  "main": "index.js",
-  "scripts": {
-    "start": "node . --help",
-    "test": "xo && nyc ava test/lib.spec.js && ava test/api.spec.js && ava test/cli.spec.js",
-    "release": "npx standard-version --infile=changelog.md && git push --follow-tags origin master && npm publish"
-  },
-  "bin": {
-    "md-to-pdf": "cli.js",
-    "md2pdf": "cli.js"
-  },
-  "author": "Simon Haenisch (https://mikewootc.com)",
-  "license": "Unlicense",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mikewootc/md-to-pdf-ng.git"
-  },
-  "homepage": "https://github.com/mikewootc/md-to-pdf-ng#readme",
-  "dependencies": {
-    "arg": "4.1.1",
-    "chalk": "2.4.2",
-    "chokidar": "3.1.0",
-    "get-port": "5.0.0",
-    "gray-matter": "4.0.2",
-    "highlight.js": "9.15.10",
-    "iconv-lite": "0.5.0",
-    "listr": "0.14.3",
-    "marked": "^0.7.0",
-    "puppeteer": "^15.3.2",
-    "serve-handler": "6.1.1"
-  },
-  "devDependencies": {
-    "ava": "1.4.1",
-    "husky": "2.3.0",
-    "nyc": "14.1.1",
-    "prettier": "1.17.1",
-    "tap-xunit": "2.3.0",
-    "xo": "0.24.0"
-  },
-  "husky": {
-    "hooks": {
-      "post-merge": "git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep --quiet package-lock.json && npm install"
-    }
-  },
-  "prettier": {
-    "printWidth": 120,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "all",
-    "useTabs": true,
-    "bracketSpacing": true
-  },
-  "xo": {
-    "prettier": true,
-    "rules": {
-      "camelcase": [
-        "error",
-        {
-          "properties": "never"
+    "name": "md-to-pdf-mermaid",
+    "version": "2.9.0",
+    "description": "CLI tool for converting Markdown files to PDF with support for Mermaid graphics.",
+    "keywords": [
+        "markdown-to-pdf",
+        "cli",
+        "pdf-generation",
+        "documentation",
+        "assignments",
+        "homework",
+        "markdown",
+        "pdf",
+        "puppeteer",
+        "mermaid",
+        "headless-chrome"
+    ],
+    "engines": {
+        "node": ">= 8.3.0"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "node . --help",
+        "test": "xo && nyc ava test/lib.spec.js && ava test/api.spec.js && ava test/cli.spec.js",
+        "release": "npx standard-version --infile=changelog.md && git push --follow-tags origin master && npm publish"
+    },
+    "bin": {
+        "md-to-pdf": "cli.js",
+        "md2pdf": "cli.js"
+    },
+    "author": "Carmen del Mar Ruiz de Celis",
+    "license": "Unlicense",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lezkizofrenik/md-to-pdf-ng.git"
+    },
+    "homepage": "https://github.com/lezkizofrenik/md-to-pdf-ng#readme",
+    "dependencies": {
+        "arg": "4.1.1",
+        "chalk": "2.4.2",
+        "chokidar": "3.1.0",
+        "get-port": "5.0.0",
+        "gray-matter": "4.0.2",
+        "highlight.js": "9.15.10",
+        "iconv-lite": "0.5.0",
+        "listr": "0.14.3",
+        "marked": "^0.7.0",
+        "puppeteer": "^15.3.2",
+        "serve-handler": "6.1.1"
+    },
+    "devDependencies": {
+        "ava": "1.4.1",
+        "husky": "2.3.0",
+        "nyc": "14.1.1",
+        "prettier": "1.17.1",
+        "tap-xunit": "2.3.0",
+        "xo": "0.24.0"
+    },
+    "husky": {
+        "hooks": {
+            "post-merge": "git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep --quiet package-lock.json && npm install"
         }
-      ],
-      "capitalized-comments": "off",
-      "valid-jsdoc": [
-        "warn",
-        {
-          "requireReturnType": false
+    },
+    "prettier": {
+        "printWidth": 120,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "all",
+        "useTabs": true,
+        "bracketSpacing": true
+    },
+    "xo": {
+        "prettier": true,
+        "rules": {
+            "camelcase": [
+                "error",
+                {
+                    "properties": "never"
+                }
+            ],
+            "capitalized-comments": "off",
+            "valid-jsdoc": [
+                "warn",
+                {
+                    "requireReturnType": false
+                }
+            ]
         }
-      ]
+    },
+    "bugs": {
+        "url": "https://github.com/lezkizofrenik/md-to-pdf-ng/issues"
+    },
+    "directories": {
+        "lib": "lib",
+        "test": "test"
     }
-  },
-  "bugs": {
-    "url": "https://github.com/mikewootc/md-to-pdf-ng/issues"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  }
 }
