@@ -1,6 +1,6 @@
 {
   "name": "md-to-pdf-ng",
-  "version": "2.8.9",
+  "version": "2.9.0",
   "description": "CLI tool for converting Markdown files to PDF.",
   "keywords": [
     "markdown-to-pdf",
@@ -25,12 +25,15 @@
     "release": "npx standard-version --infile=changelog.md && git push --follow-tags origin master && npm publish"
   },
   "bin": {
-    "md-to-pdf": "./cli.js",
-    "md2pdf": "./cli.js"
+    "md-to-pdf": "cli.js",
+    "md2pdf": "cli.js"
   },
   "author": "Simon Haenisch (https://mikewootc.com)",
   "license": "Unlicense",
-  "repository": "mikewootc/md-to-pdf-ng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikewootc/md-to-pdf-ng.git"
+  },
   "homepage": "https://github.com/mikewootc/md-to-pdf-ng#readme",
   "dependencies": {
     "arg": "4.1.1",
@@ -83,5 +86,12 @@
         }
       ]
     }
+  },
+  "bugs": {
+    "url": "https://github.com/mikewootc/md-to-pdf-ng/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
